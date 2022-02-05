@@ -55,3 +55,7 @@ FROM PortfolioProject.dbo.coviddeaths$
 WHERE continent IS NOT NULL
 GROUP BY date
 ORDER BY 1,2
+
+-- References
+SELECT * FROM PortfolioProject.dbo.coviddeaths$;
+SELECT * FROM PortfolioProject.dbo.covidvaccinations$;
